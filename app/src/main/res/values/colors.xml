@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#17A4FF</color>
+    <color name="green">#00FF7F</color>
+    <color name="dark_blue">#FF1976D2</color>
+    <color name="task_blue">#FF2196F3</color>
+    <color name="yellow">#FFFFEB3B</color>
+    <color name="red">#FFF44336</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="gray_light">#EEEEEE</color>
+    <color name="gray_dark">#888888</color>
+    <!-- New colors -->
+    <color name="blue_600">#1E88E5</color>
+    <color name="red_500">#F44336</color>
+    <color name="green_500">#4CAF50</color>
+    <color name="gray_200">#EEEEEE</color>
+
+    <color name="background">#FFF5F5F5</color>
+    <color name="text_primary">#FF212121</color>
+    <color name="text_secondary">#FF757575</color>
+    <color name="primary_color">#FF6200EE</color>
+    <color name="card_background">#FFFFFFFF</color>
+
+
+    <!-- Existing colors -->
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="light_gray">#F5F5F5</color>
+
+
+    <!-- Success Colors -->
+    <color name="success_color">#10B981</color>
+    <color name="success_light">#ECFDF5</color>
+    <color name="success_dark">#047857</color>
+
+    <!-- Error Colors -->
+    <color name="error_color">#EF4444</color>
+    <color name="error_light">#FEF2F2</color>
+
+    <!-- Info Colors -->
+    <color name="info_color">#3B82F6</color>
+    <color name="info_light">#EFF6FF</color>
+
+    <!-- Warning Colors -->
+    <color name="warning_color">#F59E0B</color>
+    <color name="warning_light">#FFFBEB</color>
+
+    <!-- Primary Light -->
+    <color name="primary_light">#F0F9FF</color>
+
+    <!-- Accent Color -->
+    <color name="accent_color">#8B5CF6</color>
+</resources>

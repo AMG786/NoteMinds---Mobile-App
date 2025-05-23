@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "3553627358",
+    "project_id": "noteminds",
+    "storage_bucket": "noteminds.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3553627358:android:9e4b1ca7b7f8549241864f",
+        "android_client_info": {
+          "package_name": "com.example.noteminds"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXq5owZndy5EQf3mG9jRCp7XTM80N8qKs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

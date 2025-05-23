@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">NoteMinds</string>
+    <string name="username">Username</string>
+    <string name="user_email">username@example.com</string>
+    <string name="notification_text">Display any important notifications here</string>
+    <string name="total_questions">Total Questions</string>
+    <string name="correct_answers">Correctly Answered</string>
+    <string name="incorrect_answers">Incorrect Answers</string>
+    <string name="questions_count">10</string>
+    <string name="ai_summary_title">Summarized by AI</string>
+    <string name="ai_summary_description">Query the LLM to get a summary for your incorrect answers</string>
+    <string name="share_button">Share</string>
+    <!-- strings.xml -->
+    <plurals name="tasks_due_count">
+        <item quantity="one">You have %d task due</item>
+        <item quantity="other">You have %d tasks due</item>
+    </plurals>
+
+    <string name="no_tasks_due">No tasks due</string>
+    <!-- Upgrade/Purchase Screen Strings -->
+    <string name="upgrade_title">Upgrade\nyour experience</string>
+
+    <string name="tier_starter">Starter</string>
+    <string name="tier_intermediate">Intermediate</string>
+    <string name="tier_advanced">Advanced</string>
+
+    <string name="feature_description">Improved Quiz generation</string>
+    <string name="best_seller_label">Best Seller!</string>
+
+    <string name="purchase_button">Purchase</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="upload_pdf_title">Upload PDF Notes</string>
+    <string name="select_pdf">Select PDF File</string>
+    <string name="no_file_selected">No file selected</string>
+    <string name="process_pdf">Generate Summary &amp; Quiz</string>
+    <string name="summary_title">Document Summary</string>
+    <string name="quiz_title">Generated Quiz</string>
+    <string name="correct_answer">Correct answer: %s</string>
+
+</resources>

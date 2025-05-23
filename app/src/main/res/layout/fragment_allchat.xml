@@ -1,0 +1,484 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_background"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/materialButton"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/left_back_arrow"
+        android:backgroundTint="@color/dark_blue"
+        android:gravity="center_horizontal"
+        android:src="@drawable/turn_left_icon"
+        android:textSize="@dimen/text_size_medium"
+        app:cornerRadius="8dp"
+        app:iconTint="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_large"
+        app:cardCornerRadius="@dimen/radius_12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/materialButton"
+        app:layout_constraintTop_toBottomOf="@+id/materialButton">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/dark_blue">
+
+            <TextView
+                android:id="@+id/tv_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="Chat with your Peers"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_display"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/iv_profile"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.37" />
+
+            <TextView
+                android:id="@+id/tv_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="abdul@gmail.com"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/tv_username"
+                app:layout_constraintTop_toBottomOf="@+id/tv_username"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/iv_profile"
+                android:layout_width="80dp"
+                android:layout_height="0dp"
+                android:layout_margin="@dimen/margin_medium"
+                app:lottie_loop="true"
+                app:lottie_autoPlay="true"
+                app:lottie_rawRes="@raw/profile_animation"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:visibility="gone"
+                />
+
+            <ImageView
+                android:layout_width="@dimen/icon_size_small"
+                android:layout_height="wrap_content"
+                android:src="@drawable/add_fill_circular"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/iv_profile"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/iv_profile"
+                app:layout_constraintTop_toTopOf="@+id/iv_profile"
+                app:layout_constraintVertical_bias="0.79" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationView1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/cardView"
+        app:layout_constraintStart_toStartOf="@+id/cardView"
+        app:layout_constraintTop_toBottomOf="@+id/cardView"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/all_chat" />
+
+
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/tv_notification"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/notification_bg"
+        android:drawableStart="@drawable/ic_notification"
+        android:drawablePadding="@dimen/margin_small"
+        android:padding="8dp"
+        android:text="You have attempted all correct "
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/cardView"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="@+id/cardView"
+        app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView1" />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView_total_qs"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/margin_small"
+        app:cardCornerRadius="@dimen/radius_12"
+        app:layout_constraintEnd_toStartOf="@+id/cardView_correct_ans"
+        app:layout_constraintStart_toStartOf="@+id/materialButton"
+        app:layout_constraintTop_toBottomOf="@+id/tv_notification">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/dark_blue"
+            android:paddingTop="@dimen/padding_medium"
+            android:paddingBottom="@dimen/padding_xlarge">
+
+            <TextView
+                android:id="@+id/tv_total_qs_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_small"
+                android:gravity="center_horizontal"
+                android:text="Private Chat "
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_xxlarge"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.37" />
+
+            <TextView
+                android:id="@+id/tv_total_qs_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_chat"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_display"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/tv_total_qs_title"
+                app:layout_constraintStart_toStartOf="@+id/tv_total_qs_title"
+                app:layout_constraintTop_toBottomOf="@+id/tv_total_qs_title"
+                app:layout_constraintVertical_bias="0.0" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView_correct_ans"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_small"
+        app:cardCornerRadius="@dimen/radius_12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cardView_total_qs"
+        app:layout_constraintTop_toBottomOf="@+id/tv_notification">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/dark_blue"
+            android:paddingTop="@dimen/padding_medium"
+            android:paddingBottom="@dimen/padding_xlarge">
+
+            <TextView
+                android:id="@+id/tv_correct_ans_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_small"
+                android:layout_marginLeft="@dimen/margin_small"
+                android:layout_marginRight="@dimen/margin_small"
+                android:gravity="center_horizontal"
+                android:text="Group Chat"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_xxlarge"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.37" />
+
+            <ImageView
+                android:id="@+id/tv_correct_ans_value"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/ic_group_chat"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_display"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/tv_correct_ans_title"
+                app:layout_constraintStart_toStartOf="@+id/tv_correct_ans_title"
+                app:layout_constraintTop_toBottomOf="@+id/tv_correct_ans_title"
+                app:layout_constraintVertical_bias="0.0" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView_incorrect_ans"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_medium"
+        app:cardCornerRadius="@dimen/radius_12"
+        app:layout_constraintEnd_toEndOf="@+id/cardView_correct_ans"
+        app:layout_constraintStart_toStartOf="@+id/materialButton"
+        app:layout_constraintTop_toBottomOf="@+id/cardView_total_qs">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:background="@color/dark_blue"
+            android:layout_height="wrap_content">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/cl_incorrect_ans"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@color/dark_blue"
+                android:paddingTop="@dimen/padding_medium"
+                android:paddingBottom="@dimen/padding_xlarge"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/cl_right"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/tv_incorrect_ans"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin_medium"
+                    android:gravity="center_horizontal"
+                    android:text="Quiz"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_xxlarge"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.37" />
+
+                <TextView
+                    android:id="@+id/tv_incorrect_ans_val"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/book_icon"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_display"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/tv_incorrect_ans"
+                    app:layout_constraintStart_toStartOf="@+id/tv_incorrect_ans"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_incorrect_ans"
+                    app:layout_constraintVertical_bias="0.0" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/cl_right"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@color/dark_blue"
+                android:paddingTop="@dimen/padding_medium"
+                android:paddingBottom="@dimen/padding_xlarge"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/cl_incorrect_ans"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/tv_ai_summary_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:background="@drawable/notification_bg"
+                    android:drawableStart="@drawable/ic_star"
+                    android:drawableTint="@color/black"
+                    android:paddingStart="@dimen/padding_small"
+                    android:paddingTop="@dimen/padding_xxsmall"
+                    android:paddingEnd="@dimen/padding_small"
+                    android:text="@string/ai_summary_title"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_micro"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.13999999" />
+
+                <TextView
+                    android:id="@+id/tv_ai_summary_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Summarize your document by AI"
+                    android:textColor="@color/white"
+                    android:layout_marginRight="@dimen/margin_large"
+                    android:layout_marginLeft="@dimen/margin_large"
+                    android:gravity="center_horizontal"
+
+                    android:textSize="@dimen/text_size_small"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/tv_ai_summary_title"
+                    app:layout_constraintStart_toStartOf="@+id/tv_ai_summary_title"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_ai_summary_title"
+                    app:layout_constraintVertical_bias="0.0" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:visibility="gone"
+        android:id="@+id/cardView_incorrect_ans1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_medium"
+        app:cardCornerRadius="@dimen/radius_12"
+        app:layout_constraintEnd_toEndOf="@+id/cardView_correct_ans"
+        app:layout_constraintStart_toStartOf="@+id/materialButton"
+        app:layout_constraintTop_toBottomOf="@+id/cardView_incorrect_ans">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:background="@color/dark_blue"
+            android:layout_height="wrap_content">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/cl_incorrect_ans1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@color/dark_blue"
+                android:paddingTop="@dimen/padding_medium"
+                android:paddingBottom="@dimen/padding_xlarge"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/cl_right1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/tv_incorrect_ans1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin_medium"
+                    android:gravity="center_horizontal"
+                    android:text="Payment Plans"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_xlarge"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.37" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/cl_right1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@color/dark_blue"
+                android:paddingTop="@dimen/padding_medium"
+                android:paddingBottom="@dimen/padding_xlarge"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/cl_incorrect_ans1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:src="@drawable/img"
+                    android:id="@+id/tv_ai_summary_title1"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:drawableStart="@drawable/ic_star"
+                    android:drawableTint="@color/black"
+                    android:paddingStart="@dimen/padding_small"
+                    android:paddingTop="@dimen/padding_xxsmall"
+                    android:paddingEnd="@dimen/padding_small"
+                    android:text="@string/ai_summary_title"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_micro"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.13999999" />
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/tv_ai_summary_description1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_large"
+                    android:layout_marginRight="@dimen/margin_large"
+                    android:gravity="center_horizontal"
+                    android:text="Please explore good payment plan"
+                    android:textColor="@color/white"
+
+                    android:textSize="@dimen/text_size_small"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/tv_ai_summary_title1"
+                    app:layout_constraintStart_toStartOf="@+id/tv_ai_summary_title1"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/green"
+        android:text="Share"
+        android:visibility="gone"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:cornerRadius="8dp"
+        app:icon="@drawable/ic_share"
+        app:iconGravity="textEnd"
+        app:iconPadding="8dp"
+        app:iconSize="24dp"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:layout_marginBottom="@dimen/margin_medium"
+        app:iconTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/cardView_incorrect_ans"
+        app:layout_constraintStart_toStartOf="@+id/cardView_incorrect_ans"
+        app:layout_constraintTop_toBottomOf="@+id/cardView_incorrect_ans1"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
