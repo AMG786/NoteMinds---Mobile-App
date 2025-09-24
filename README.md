@@ -52,6 +52,8 @@ An AI-powered mobile learning application that transforms your notes into intera
 <img width="30%" alt="Screenshot_1748062040" src="https://github.com/user-attachments/assets/c7901a9c-ebab-4b89-a009-f91af60b85be" />
 <img width="30%" alt="Screenshot_1748062048" src="https://github.com/user-attachments/assets/b48f2582-b47e-4c0e-9eba-c4699ee2bcda" />
 <img width="30%" alt="Screenshot_1748062096" src="https://github.com/user-attachments/assets/61c061bb-1e4f-486a-aec1-2a1b458eedab" />
+</div>
+<div align="center">
 <img width="30%" alt="Screenshot_1748062202" src="https://github.com/user-attachments/assets/c6c6a3f8-d12d-40e1-9c11-b96529ddb6ec" />
 <img width="30%" alt="Screenshot_1748062232" src="https://github.com/user-attachments/assets/a5c3244d-61d6-4928-8899-dbfa5d074898" />
 </div>
