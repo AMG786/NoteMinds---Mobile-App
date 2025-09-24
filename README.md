@@ -1,4 +1,4 @@
-<img width="1080" height="2400" alt="Screenshot_1748053863" src="https://github.com/user-attachments/assets/3cc77281-8efa-4afe-93a6-1338873fe6fd" /># NoteMinds 🧠📱
+<img width="30%" alt="Screenshot_1748053863" src="https://github.com/user-attachments/assets/3cc77281-8efa-4afe-93a6-1338873fe6fd" /># NoteMinds 🧠📱
 
 An AI-powered mobile learning application that transforms your notes into interactive summaries and quizzes using advanced machine learning technology.
 
