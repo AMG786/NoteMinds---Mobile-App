@@ -39,36 +39,60 @@ An AI-powered mobile learning application that transforms your notes into intera
 - **Single Activity Architecture**: Efficient navigation and performance
 
 ## 📱 Screenshots
-<!-- Add your screenshots here -->
-<img width="30%" alt="Screenshot_1748053863" src="https://github.com/user-attachments/assets/401399d1-d608-4748-b71e-1b1127127cc9" />
-<img width="30%" alt="Screenshot_1748053868" src="https://github.com/user-attachments/assets/b2a55dd0-fac4-4bc4-9b8a-a3eb57e19573" />
+## 📱 Screenshots
+
+### 📂 Main Dashboard & Note Management
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/401399d1-d608-4748-b71e-1b1127127cc9" width="30%" />
+  <img src="https://github.com/user-attachments/assets/b2a55dd0-fac4-4bc4-9b8a-a3eb57e19573" width="30%" />
+  <img src="https://github.com/user-attachments/assets/587a8541-62a4-4501-b148-8d8b568d33a9" width="30%" />
+</p>
 
 *Main dashboard with note management*
-<div align="center">
-<img  width="30%" src="https://github.com/user-attachments/assets/587a8541-62a4-4501-b148-8d8b568d33a9" />
-</div>
+
+---
+
+### 📝 AI-Generated Summaries
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c7901a9c-ebab-4b89-a009-f91af60b85be" width="30%" />
+  <img src="https://github.com/user-attachments/assets/b48f2582-b47e-4c0e-9eba-c4699ee2bcda" width="30%" />
+  <img src="https://github.com/user-attachments/assets/61c061bb-1e4f-486a-aec1-2a1b458eedab" width="30%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c6c6a3f8-d12d-40e1-9c11-b96529ddb6ec" width="30%" />
+  <img src="https://github.com/user-attachments/assets/a5c3244d-61d6-4928-8899-dbfa5d074898" width="30%" />
+</p>
+
 *AI-generated summary interface*
-<div align="center">
-<img width="30%" alt="Screenshot_1748062040" src="https://github.com/user-attachments/assets/c7901a9c-ebab-4b89-a009-f91af60b85be" />
-<img width="30%" alt="Screenshot_1748062048" src="https://github.com/user-attachments/assets/b48f2582-b47e-4c0e-9eba-c4699ee2bcda" />
-<img width="30%" alt="Screenshot_1748062096" src="https://github.com/user-attachments/assets/61c061bb-1e4f-486a-aec1-2a1b458eedab" />
-</div>
-<div align="center">
-<img width="30%" alt="Screenshot_1748062202" src="https://github.com/user-attachments/assets/c6c6a3f8-d12d-40e1-9c11-b96529ddb6ec" />
-<img width="30%" alt="Screenshot_1748062232" src="https://github.com/user-attachments/assets/a5c3244d-61d6-4928-8899-dbfa5d074898" />
-</div>
+
+---
+
+### 💬 Real-Time Chat Collaboration
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4fd2407a-5f0f-4a33-a43d-e3f481aaa392" width="30%" />
+  <img src="https://github.com/user-attachments/assets/9f7fecd7-da88-4443-ba47-652dfdd698e9" width="30%" />
+  <img src="https://github.com/user-attachments/assets/bc9fe36f-5d99-49da-b0c9-3894fa47a7e3" width="30%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c924def2-9050-42c7-a15f-663d03acdc2f" width="30%" />
+  <img src="https://github.com/user-attachments/assets/6afc8765-6025-4278-9609-2846893992ff" width="30%" />
+  <img src="https://github.com/user-attachments/assets/c3ed587b-9c71-43ea-8560-a25ab1a6cd96" width="30%" />
+</p>
 
 *Real-time chat collaboration*
-<img width="30%" alt="Screenshot_1748062051" src="https://github.com/user-attachments/assets/8595ff52-4be7-49de-afdc-37b487d2d22f" />
-<img width="30%" alt="Screenshot_1748062063" src="https://github.com/user-attachments/assets/4fd2407a-5f0f-4a33-a43d-e3f481aaa392" />
-<img width="30%" alt="Screenshot_1748062067" src="https://github.com/user-attachments/assets/9f7fecd7-da88-4443-ba47-652dfdd698e9" />
-<img width="30%" alt="Screenshot_1748062417" src="https://github.com/user-attachments/assets/bc9fe36f-5d99-49da-b0c9-3894fa47a7e3" />
-<img width="30%" alt="Screenshot_1748062434" src="https://github.com/user-attachments/assets/c924def2-9050-42c7-a15f-663d03acdc2f" />
 
+---
+
+### 🎯 Quiz Generation from Notes
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6afc8765-6025-4278-9609-2846893992ff" width="30%" />
+  <img src="https://github.com/user-attachments/assets/c3ed587b-9c71-43ea-8560-a25ab1a6cd96" width="30%" />
+</p>
 
 *Quiz generation from notes*
-<img width="30%" alt="Screenshot_1748062240" src="https://github.com/user-attachments/assets/6afc8765-6025-4278-9609-2846893992ff" />
-<img width="30%" alt="Screenshot_1748062344" src="https://github.com/user-attachments/assets/c3ed587b-9c71-43ea-8560-a25ab1a6cd96" />
+
 
 
 ## 🏗️ Architecture
