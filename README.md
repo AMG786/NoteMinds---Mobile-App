@@ -41,8 +41,8 @@ An AI-powered mobile learning application that transforms your notes into intera
 ## 📱 Screenshots
 
 <!-- Add your screenshots here -->
-<img width="1080" height="2400" alt="Screenshot_1748053863" src="https://github.com/user-attachments/assets/401399d1-d608-4748-b71e-1b1127127cc9" />
-<img width="1080" height="2400" alt="Screenshot_1748053868" src="https://github.com/user-attachments/assets/b2a55dd0-fac4-4bc4-9b8a-a3eb57e19573" />
+<img width="30%" alt="Screenshot_1748053863" src="https://github.com/user-attachments/assets/401399d1-d608-4748-b71e-1b1127127cc9" />
+<img width="30%" alt="Screenshot_1748053868" src="https://github.com/user-attachments/assets/b2a55dd0-fac4-4bc4-9b8a-a3eb57e19573" />
 
 *Main dashboard with note management*
 
