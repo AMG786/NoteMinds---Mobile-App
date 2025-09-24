@@ -39,21 +39,22 @@ An AI-powered mobile learning application that transforms your notes into intera
 - **Single Activity Architecture**: Efficient navigation and performance
 
 ## 📱 Screenshots
-
 <!-- Add your screenshots here -->
 <img width="30%" alt="Screenshot_1748053863" src="https://github.com/user-attachments/assets/401399d1-d608-4748-b71e-1b1127127cc9" />
 <img width="30%" alt="Screenshot_1748053868" src="https://github.com/user-attachments/assets/b2a55dd0-fac4-4bc4-9b8a-a3eb57e19573" />
 
 *Main dashboard with note management*
+<div align="center">
 <img  width="30%" src="https://github.com/user-attachments/assets/587a8541-62a4-4501-b148-8d8b568d33a9" />
-
+</div>
 *AI-generated summary interface*
+<div align="center">
 <img width="30%" alt="Screenshot_1748062040" src="https://github.com/user-attachments/assets/c7901a9c-ebab-4b89-a009-f91af60b85be" />
 <img width="30%" alt="Screenshot_1748062048" src="https://github.com/user-attachments/assets/b48f2582-b47e-4c0e-9eba-c4699ee2bcda" />
 <img width="30%" alt="Screenshot_1748062096" src="https://github.com/user-attachments/assets/61c061bb-1e4f-486a-aec1-2a1b458eedab" />
 <img width="30%" alt="Screenshot_1748062202" src="https://github.com/user-attachments/assets/c6c6a3f8-d12d-40e1-9c11-b96529ddb6ec" />
 <img width="30%" alt="Screenshot_1748062232" src="https://github.com/user-attachments/assets/a5c3244d-61d6-4928-8899-dbfa5d074898" />
-
+</div>
 
 *Real-time chat collaboration*
 <img width="30%" alt="Screenshot_1748062051" src="https://github.com/user-attachments/assets/8595ff52-4be7-49de-afdc-37b487d2d22f" />
@@ -71,7 +72,6 @@ An AI-powered mobile learning application that transforms your notes into intera
 ## 🏗️ Architecture
 
 NoteMinds follows the **MVVM (Model-View-ViewModel)** architectural pattern with clean code principles:
-
 <img width="733" height="550" alt="image" src="https://github.com/user-attachments/assets/b116d7af-2155-4ab9-ae29-1974ddcbda9b" />
 
 **AI Microservices Backend:**
